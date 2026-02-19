@@ -229,5 +229,3 @@ nodemon server.js
 Run Frontend
 cd frontend
 npm start
-
-If you want, I can also give a **complete professional README.md optimized for GitHub with badges, s
