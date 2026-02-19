@@ -160,22 +160,22 @@ LearnHub follows a **Client-Server Architecture**
 LearnHub/
 │
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ ├── components/
-│ ├── pages/
-│ └── package.json
+│   ├── public/              (Static files)
+│   ├── src/                 (Main source code)
+│   │   ├── components/      (Reusable UI components)
+│   │   └── pages/           (Application pages)
+│   └── package.json         (Frontend dependencies)
 │
 ├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── uploads/
-│ ├── server.js
-│ └── package.json
+│   ├── models/              (Database schemas)
+│   ├── routes/              (API routes)
+│   ├── controllers/         (Business logic)
+│   ├── middleware/          (Custom middleware)
+│   ├── uploads/             (Uploaded files)
+│   ├── server.js            (Backend entry point)
+│   └── package.json         (Backend dependencies)
 │
-└── README.md
+└── README.md                (Project documentation)
 
 
 
